@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         title: 'Quiz App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
           useMaterial3: true,
         ),
         home: const OnboardingScreen(), // Start with Onboarding
